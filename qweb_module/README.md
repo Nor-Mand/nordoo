@@ -23,3 +23,28 @@
         </t>
     </t>
 </template>
+````
+### `directive`
+- If you don't want to shows tags html, you must to use the directive t-if:
+  - Some directives:
+    - t-esc 
+    - t-raw
+    - t-set (variable)
+    - t-value (put value in a variable)
+    - t-field (it works with t-options)
+    - t-if (conditional  )
+    - t-foreach (can works with t-as and t-esc
+    - t-att (attributes) 
+    - t-call (inherint)
+    - t-js
+    - t-log
+
+### `format print`
+  - name
+  - format
+  - dpi
+  - margin_pos
+  - page_height_page_width
+  - orientation
+  - header_line
+  - header_spacing
