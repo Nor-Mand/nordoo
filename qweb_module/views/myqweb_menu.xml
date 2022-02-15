@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem
+        name="My Form"
+        id="myqweb_base_menu"
+    />
+    <menuitem
+        name="Form Qweb"
+        id="myqweb_menu"
+        parent="myqweb_base_menu"
+        action="myqweb_view_action"
+    />
+</odoo>
